@@ -10,6 +10,12 @@
   justify-content: center;
   align-items: center;
 }
+.Main {
+  display: flex;
+  /*flex-direction: row;*/
+  width: 100vw;
+  height: 70vh;
+}
 #Header {
   background-color: #f4c8fc;
   width: 100vw;
@@ -17,11 +23,16 @@
 }
 #Main-Content {
   /*display: flex;*/
-  width: 100vw;
+  width: 70vw;
   height: 70vh;
 }
 #Footer {
-  background-color: #d69ff8;
+  background-color: #f4c8fc;
   width: 100vw;
   height: 15vh;
+}
+#Left {
+  width: 30vw;
+  height: 70vh;
+  background-color: #d69ff8;
 }

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+  .texto-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Main {
+    display: flex;
+    /*flex-direction: row;*/
+    width: 100vw;
+    height: 70vh;
+  }
+  #Header {
+    background-color: #f4c8fc;
+    width: 100vw;
+    height: 15vh;
+  }
+  #Main-Content {
+    /*display: flex;*/
+    width: 70vw;
+    height: 70vh;
+  }
+  #Footer {
+    background-color: #f4c8fc;
+    width: 100vw;
+    height: 15vh;
+  }
+  #Right {
+    width: 30vw;
+    height: 70vh;
+    background-color: #d69ff8;
+  }

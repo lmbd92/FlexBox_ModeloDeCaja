@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+  }
+  .container {
+    width: 80vw;
+    height: 100vh;
+  }
+  .split {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  .texto-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Left {
+    background-color: #9d12b6;
+    width: 20vw;
+    height: 100vh;
+  }
+  #Header {
+    background-color: #f4c8fc;
+    width: 80vw;
+    height: 15vh;
+  }
+  #Main-Content {
+    /*display: flex;*/
+    width: 80vw;
+    height: 70vh;
+  }
+  #Footer {
+    background-color: #d69ff8;
+    width: 80vw;
+    height: 15vh;
+  }
+  

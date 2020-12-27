@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-weight: 900;
 }
 .container {
   width: 100vw;
@@ -18,10 +19,16 @@
 #Main-Content {
   /*display: flex;*/
   width: 100vw;
-  height: 70vh;
+  height: 60vh;
 }
 #Footer {
   background-color: #d69ff8;
   width: 100vw;
   height: 15vh;
+}
+#Nav {
+  background-color: #6928bd;
+  color: #ffffff;
+  width: 100vw;
+  height: 10vh;
 }
