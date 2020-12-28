@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.texto-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Main {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+}
+#Header {
+  background-color: #f4c8fc;
+  width: 100vw;
+  height: 15vh;
+}
+#Nav {
+  background-color: #610a97;
+  color: #ffffff;
+  width: 100vw;
+  height: 10vh;
+}
+#Main-Content {
+  width: 70vw;
+  height: 60vh;
+}
+#Footer {
+  background-color: #f4c8fc;
+  width: 100vw;
+  height: 15vh;
+}
+#Left {
+  width: 15vw;
+  height: 60vh;
+  background-color: #d69ff8;
+}
+#Right {
+  width: 15vw;
+  height: 60vh;
+  background-color: #d69ff8;
+}
