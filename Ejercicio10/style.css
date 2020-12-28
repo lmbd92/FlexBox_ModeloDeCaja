@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 80vw;
+  height: 100vh;
+}
+.split {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.texto-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Right {
+  background-color: #9d12b6;
+  width: 20vw;
+  height: 100vh;
+}
+#Header {
+  background-color: #f4c8fc;
+  width: 80vw;
+  height: 15vh;
+}
+#Nav {
+  background-color: #6928bd;
+  color: #ffffff;
+  width: 80vw;
+  height: 10vh;
+}
+#Main-Content {
+  /*display: flex;*/
+  width: 80vw;
+  height: 60vh;
+}
+#Footer {
+  background-color: #d69ff8;
+  width: 80vw;
+  height: 15vh;
+}
