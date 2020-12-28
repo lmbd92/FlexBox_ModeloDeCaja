@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  font-weight: 900;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.texto-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Header {
+  background-color: #f4c8fc;
+  width: 100vw;
+  height: 15vh;
+}
+#Main {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+}
+#Right {
+  background-color: #9d12b6;
+  width: 20vw;
+  height: 60vh;
+}
+#Main-Content {
+  width: 80vw;
+  height: 60vh;
+}
+#Footer {
+  background-color: #d69ff8;
+  width: 100vw;
+  height: 15vh;
+}
+#Nav {
+  background-color: #6928bd;
+  color: #ffffff;
+  width: 100vw;
+  height: 10vh;
+}
