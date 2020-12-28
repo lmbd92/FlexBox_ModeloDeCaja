@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.dado {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 10px;
+  box-sizing: border-box;
+}
+.punto {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+}
+.fila {
+  width: 100%;
+  display: flex;
+}
+/** DADO 1 **/
+.centro {
+  justify-content: center;
+  align-items: center;
+}
+/** DADO 2 **/
+.centro-2 .fila:nth-child(1) {
+  justify-content: flex-start;
+}
+.centro-2 .fila:nth-child(2) {
+  justify-content: flex-end;
+}
+/** DADO 3 **/
+.centro-3 .fila:nth-child(1) {
+  justify-content: flex-end;
+}
+.centro-3 .fila:nth-child(2) {
+  justify-content: center;
+}
+/** DADO 4 **/
+.centro-4 .fila {
+  justify-content: space-between;
+}
+
+/** DADO 5 **/
+.centro-5 .fila:nth-child(1),
+.centro-5 .fila:nth-child(3) {
+  justify-content: space-between;
+}
+.centro-5 .fila:nth-child(2) {
+  justify-content: center;
+  align-items: center;
+}
