@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6944ff;
+  color: #324e63;
+}
+.container {
+  width: 490px;
+  height: 100vh;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+}
+.header {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.content {
+  text-align: center;
+  height: auto;
+}
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  color: #6944ff;
+  margin-bottom: 15px;
+}
+.texto_perfil {
+  font-size: 18px;
+  font-weight: 500;
+  color: #324e63;
+  margin-bottom: 15px;
+}
+.ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.profile-card-loc__icon {
+  display: inline-flex;
+  font-size: 27px;
+  margin-right: 10px;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.profile-card-loc__txt {
+  font-size: 18px;
+  font-weight: 700;
+  color: #324e63;
+  margin-bottom: 15px;
+}
+.card-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+.card-item {
+  padding: 10px 35px;
+  width: 150px;
+}
+.card-num {
+  font-weight: 700;
+  font-size: 27px;
+  color: #324e63;
+}
+.card-label {
+  font-weight: 500;
+  margin-top: 7px;
+}
+.social {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.profile-card-social__item {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  margin: 15px 10px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 21px;
+}
+.facebook {
+  background: #0078d7;
+}
+.twitter {
+  background: #1da1f2;
+}
+.instagram {
+  background: #e1306c;
+}
+.github {
+  background: #333333;
+}
+.profile-card-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.profile-card__button {
+  background: none;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  margin: 15px 35px;
+  padding: 15px 40px;
+  min-width: 201px;
+  border-radius: 50px;
+  min-height: 55px;
+  color: #fff;
+  cursor: pointer;
+}
+.profile-card__button.button {
+  background: #d5135a;
+}
