@@ -70,6 +70,7 @@ img {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+  margin-bottom: 15px;
 }
 .profile-card-loc__txt {
   font-size: 18px;
